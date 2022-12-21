@@ -1,0 +1,63 @@
+
+.cardApp {
+    display: flex;
+    width: 100%;
+    height:400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: bisque;
+    border: none;
+  }
+
+.cardAppText{
+    width: 60%;
+    height:100%; 
+    padding-top: 5%;
+    padding-left: 4%;
+    background-color: #d80000;
+    left: 15%;
+    border: none;
+    border-radius: 10px;
+}
+
+.cAppTextH{
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.cAppTextP{
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.cardImg{
+  width:50%;
+  left: 60%;
+  top: 10%;
+}
+
+.cImg{
+  object-fit: cover; 
+    width:90%; 
+}
+
+.landPageP{
+  color: #ffffff;
+  width: 40%; 
+}
+
+.toppList {
+  display: flex;
+  width: 40%;
+  border: none;
+}
+
+.notifCheck{
+  right: 30%;
+  top: 5%;
+}
+
+.notifNavBadge{
+  left: 71%;
+  top: 30%;
+}
