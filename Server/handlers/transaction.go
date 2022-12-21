@@ -167,7 +167,7 @@ func (h *handlerTransaction) CreateTransaction(w http.ResponseWriter, r *http.Re
 	var TransIdIsMatch = false
 	var TransactionId int
 	for !TransIdIsMatch {
-		TransactionId = user_ID + rand.Intn(10000) - rand.Intn(100)
+		TransactionId = user_ID + rand.Intn(100000) - rand.Intn(100)
 		transactionData, _ := h.TransactionRepository.GetTransaction(TransactionId)
 		if transactionData.ID == 0 {
 			TransIdIsMatch = true
