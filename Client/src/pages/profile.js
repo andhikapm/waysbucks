@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import { Card, CardGroup, Col, Container, Row, Stack } from "react-bootstrap";
 import CardHeader from "react-bootstrap/esm/CardHeader";
-import wayspro1 from "../assets/wayspro1.png"
+import userprof from "../assets/userprof.png"
 import TransUser from "../components/transuser";
 import { UserContext} from '../components/globalvar';
 
@@ -24,7 +24,7 @@ export default function ProfilUser() {
                                     <Card.Body>
                                         <Row className="align-items-center">
                                             <Col sm={4} className="" >
-                                                <Card.Img src={wayspro1} style={{ width: '150px', }} />
+                                                <Card.Img src={userprof} style={{ width: '150px', }} />
                                             </Col>
                                             <Col sm={8} >
                                                 <Card.Text>
