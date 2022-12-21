@@ -52,7 +52,7 @@ export default function UserLand() {
                 </div>
             </Container>
 
-            <Container className='row justify-content-between m-auto pb-5' style={{ padding : "0 76px" }}>
+            <Container className='row m-auto pb-5' style={{ padding : "0 76px" }}>
             <h1 className='text-danger fw-bolder'>Let's Order</h1>
                 {products?.map((product1, index) => <ProductData key={index} id={product1.id} title ={product1.title} image={product1.image} price={product1.price}/>)}
             </Container>
