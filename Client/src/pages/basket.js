@@ -108,9 +108,6 @@ export default function Basket() {
 
       const response = await API.post('/transaction', transaction)
 
-      setCart([])
-      setTotal(0)
-
       const token = response.data.data.token;
 
       console.log("response post transaction", response)
@@ -120,6 +117,8 @@ export default function Basket() {
         onSuccess: function (result) {
           /* You may add your own implementation here */
           console.log(result);
+          setCart([])
+          setTotal(0)
           navigate(`/profile`)
         },
         onPending: function (result) {
